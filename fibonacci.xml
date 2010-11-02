@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Fibonacci_Numbers>
+  <fibonacci index="1">1</fibonacci>
+  <fibonacci index="2">1</fibonacci>
+  <fibonacci index="3">2</fibonacci>
+  <fibonacci index="4">3</fibonacci>
+  <fibonacci index="5">5</fibonacci>
+  <fibonacci index="6">8</fibonacci>
+  <fibonacci index="7">13</fibonacci>
+  <fibonacci index="8">21</fibonacci>
+  <fibonacci index="9">34</fibonacci>
+  <fibonacci index="10">55</fibonacci>
+</Fibonacci_Numbers>

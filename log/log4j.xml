@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+
+
+	<appender name="INFO" class="org.apache.log4j.ConsoleAppender">
+		
+		<param name="Threshold" value="INFO"/>      	  	
+		
+	</appender>
+
+<!-- 
+	<appender name="ERRORLOG" class="org.apache.log4j.DailyRollingFileAppender">
+		<param name="DatePattern" value="'.'yyyy-MM-dd"/>	
+		<param name="Threshold" value="ERROR"/>
+	    <param name="File" value="d://logupdates//error.txt"/>
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="%d{dd MMM yyyy HH:mm:ss,SSS} %m%n"/>
+		</layout>	
+	</appender>
+
+
+<appender name="DEBUGLOG" class="org.apache.log4j.ConsoleAppender">
+		<param name="DatePattern" value="'.'yyyy-MM-dd"/>	
+	<param name="Threshold" value="DEBUG"/>
+	<param name="File" value="d://logupdates//debug.txt"/>
+<layout class="org.apache.log4j.PatternLayout">
+		<param name="ConversionPattern" value="%d{dd MMM yyyy HH:mm:ss,SSS} %m%n"/>
+		</layout>	
+		</appender>
+
+
+<appender name="WARNLOG" class="org.apache.log4j.ConsoleAppender">
+		<param name="DatePattern" value="'.'yyyy-MM-dd"/>	
+<param name="Threshold" value="WARN"/>
+		<param name="File" value="d://logupdates//warn.txt"/>
+<layout class="org.apache.log4j.PatternLayout">
+		<param name="ConversionPattern" value="%d{dd MMM yyyy HH:mm:ss,SSS} %m%n"/>
+		</layout>	
+	</appender>
+ -->
+<root>
+<appender-ref ref="INFOLOG" />	
+<!-- 
+<appender-ref ref="ERRORLOG" />	
+<appender-ref ref="DEBUGLOG" />	
+<appender-ref ref="WARNLOG" />
+ -->
+</root>  
+
+</log4j:configuration>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<names>
+<name>
+	<auctioneerName>SKIP</auctioneerName>
+	<waitTimeForFirstCall>11</waitTimeForFirstCall>
+	<waitTimeForSecondCall>13</waitTimeForSecondCall>
+	<waitTimeForFinalCall>15</waitTimeForFinalCall>
+	<waitTimeForCloseCall>16</waitTimeForCloseCall>
+	<waitTimeForAuctionCloseWhenNoBids>17</waitTimeForAuctionCloseWhenNoBids>
+	<waitTimeForCallingReserveNotMet>18</waitTimeForCallingReserveNotMet>
+	<waitTimeForCloseCallAfterReserveNotMet>19</waitTimeForCloseCallAfterReserveNotMet>
+</name>
+</names>
